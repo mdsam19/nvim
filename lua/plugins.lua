@@ -79,8 +79,8 @@ return require("packer").startup(function(use)
 	use("onsails/lspkind.nvim")
 	--Extra vim functionality
 	use("nvim-lua/plenary.nvim")
-	--Null-ls for Formatting and Linting
-	use("jose-elias-alvarez/null-ls.nvim")
+	--Formatting and Linting
+	use('stevearc/conform.nvim')
 	--Lsp Color
 	use("folke/lsp-colors.nvim")
 	--Fuzzy Finder Telescope
