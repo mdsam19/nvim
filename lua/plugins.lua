@@ -32,8 +32,6 @@ return require("packer").startup(function(use)
 		"nvim-lualine/lualine.nvim",
 		requires = { "kyazdani42/nvim-web-devicons", opt = true },
 	})
-	--Neovim Tree
-	use("kyazdani42/nvim-tree.lua")
 	--Autopair
 	use({
 		"windwp/nvim-autopairs",
@@ -80,7 +78,7 @@ return require("packer").startup(function(use)
 	--Extra vim functionality
 	use("nvim-lua/plenary.nvim")
 	--Formatting and Linting
-	use('stevearc/conform.nvim')
+	use("stevearc/conform.nvim")
 	--Lsp Color
 	use("folke/lsp-colors.nvim")
 	--Fuzzy Finder Telescope
