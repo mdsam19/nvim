@@ -7,8 +7,6 @@ local mappings = {
 	Q = { "<cmd>q!<cr>", "Quit no-change" },
 	T = { "<cmd>terminal<cr>iclear<cr>", "Terminal" },
 	t = { "<cmd>Telescope<cr>", "Telescope Menu" },
-	e = { "<cmd>NvimTreeToggle<cr>", "File Explorer" },
-	--F = { "<cmd>lua vim.lsp.buf.format({timeout=15000})<cr>", "Format" },
 	fb = { "<cmd>Telescope file_browser<cr>", "Telescope file_browser" },
 	ff = { "<cmd>Telescope find_files<cr>", "Search by File name" },
 	r = { "<cmd>Telescope live_grep<cr>", "Live grep" },
