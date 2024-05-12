@@ -31,3 +31,5 @@ require("lspconfig").emmet_ls.setup({
 	capabilities = capabilities,
 	filetypes = { "html", "typescriptreact", "javascriptreact" },
 })
+require("lspconfig").angularls.setup({})
+require("lspconfig").intelephense.setup({})

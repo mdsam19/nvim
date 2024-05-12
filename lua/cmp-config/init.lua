@@ -75,3 +75,5 @@ require("lspconfig")["lua_ls"].setup({
 })
 require("lspconfig")["prismals"].setup({ capabilities = capabilities })
 require("lspconfig")["cssls"].setup({ capabilities = capabilities })
+require("lspconfig")["angularls"].setup({ capabilities = capabilities })
+require("lspconfig")["intelephense"].setup({ capabilities = capabilities })

@@ -1,7 +1,7 @@
 local wk = require("which-key")
 local mappings = {
 	q = { "<cmd>q<cr>", "Quit" },
-	b = { "<cmd>bwipeout<cr>", "Close Current buffer" },
+	b = { "<cmd>bd<cr>", "Close Current buffer" },
 	B = { "<cmd>bwipeout!<cr>", "Force close current Buffer" },
 	w = { "<cmd>w<cr>", "Save" },
 	Q = { "<cmd>q!<cr>", "Quit no-change" },
